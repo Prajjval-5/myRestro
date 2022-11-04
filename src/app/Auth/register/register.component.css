@@ -1,0 +1,83 @@
+.body{
+    background-image: url("../../../assets/food.jpg");
+    width: 100%;
+    padding: 2%;
+}
+form {
+    background-image: url("../../../assets/food.jpg");
+    margin: 15% 15% 5% 15%;
+    margin-top: 2%;
+    color: #abf3d8;
+    border: 3px solid #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2%;
+}
+h3{
+    text-decoration: underline;
+    margin-top: 2%;
+    color: #abf3d8;
+    text-align: center;
+}
+input[type=text], input[type=password], input[type=tel], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=textarea]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 150px;
+}
+
+button[type=submit] {
+
+    background-color: #c7cecb;
+    color: rgb(101, 97, 97);
+    padding: 14px 20px;
+    margin-top: 10%;
+    width: 20%;
+    margin: 18px 2px 20px 30%;
+    border: none;
+    cursor: pointer;
+    /* width: 100%; */
+}
+button[type=reset] {
+    background-color: #bbc3c1;
+    color: rgb(107, 102, 102);
+    margin-top: 10%;
+    padding: 14px 20px;
+    width: 20%;
+    margin: 18px 2px 20px 20px;
+    border: none;
+    cursor: pointer;
+    /* width: 100%; */
+}
+button:hover {
+    opacity: 0.8;
+    color: #abf3d8;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 4px 0 12px 0;
+    
+}
+
+img.avatar {
+    width: 14%;
+    border-radius: 50%;
+    border-color: #047baa;
+    border-width: 20px;
+    background-color: #abf3d8;
+}
+
+.container {
+    padding: 16px;
+}
+

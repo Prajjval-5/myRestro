@@ -1,0 +1,35 @@
+<div class="body">
+    <h3>Update product </h3>
+<div class="col-md-6 offset-md-3">
+    <form (ngSubmit)="onSubmit()">
+        <!-- <div class="container">
+            <label>productId</label>
+            <input type="number" class="form-control" id="productId"
+            [(ngModel)]= "product.productId" name="productId">
+        </div> -->
+        <div class="container">
+            <label>product Name</label>
+            <input type="text" class="form-control" id="productName"
+            [(ngModel)] = "product.productName" name="productName">
+        </div>
+        <div class="container">
+            <label>product description</label>
+            <input type="text" class="form-control" id="productDesc"
+            [(ngModel)] = "product.productDesc" name="productDesc">
+        </div>
+        <div class="container">
+            <label>product price</label>
+            <input type="number" class="form-control" id="productPrice"
+            [(ngModel)] = "product.productPrice" name="productPrice">
+        </div>
+        <div class="container">
+            <label>product Status</label>
+            <input type="text" class="form-control" id="productImg"
+            [(ngModel)] = "product.productImg" name="productImg">
+        </div>
+        <br/> 
+        <button class="btn btn-success" type="submit" onclick="alert('Food Updated Successfully')">Submit</button>
+        <button class="btn btn-success"  type="reset">Reset</button>
+    </form>
+</div>
+</div>

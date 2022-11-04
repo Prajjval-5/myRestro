@@ -1,0 +1,50 @@
+/* h2{
+    text-align: center;
+} */
+.body{
+    width: 100%;
+    /* background-image: url("../../../assets/food.jpg"); */
+    background-color: rgb(249, 247, 247);
+    opacity: .9;
+}
+.card{
+
+    /* margin: 5% 35% 0% 35%; */
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: aliceblue;
+    text-align: center;
+}
+button{
+    margin: 2%;
+    color: rgb(4, 6, 5);
+    background-color: rgb(150, 168, 165);
+}
+button:hover{
+    color: rgb(171, 37, 13);
+    background-color: red;
+}
+h2{
+        color: #080808;
+        /* margin: 5% 35% 0% 35%; */
+        text-decoration: underline;
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: center;
+}
+
+.logo{
+    border-image-width: auto;
+}
+.table{
+    font-weight: 1000;
+    /* color: rgb(200, 211, 218); */
+    border-color: black;
+    border-width: 5px;
+    margin-top: 2%;
+    color:#050c09
+}
+tr,td,th{
+    border-color: rgb(10, 10, 10);
+    border-width: 1px; 
+}

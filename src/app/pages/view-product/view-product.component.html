@@ -1,0 +1,33 @@
+<div class="body">
+    <h2>Product List</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Food Id</th>
+                <th>Food Name</th>
+                <th>Food Decription</th> 
+                <th>Food Price</th>
+                <th>Food Image</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of product">
+                <td>{{product.productId}}</td>
+                <td>{{product.productName}}</td>
+                <td>{{product.productDesc}}</td>
+                <td>{{product.productPrice}} Rs.</td>
+                <td>
+                    <img src=" {{product.productImg}}" width="100px">
+                </td>
+                <td>
+                    <button (click)="updateProduct(product.productId)" class="btn btn-primary">
+                        Update
+                    </button>
+                </td>            
+                <td><button type="button" class="btn btn-primary" (click)="deleteProduct(product.productId)" onclick="alert('product deleted successfully')">Delete</button></td>
+            </tr>
+        </tbody>
+    </table> 
+</div>

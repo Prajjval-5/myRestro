@@ -1,0 +1,38 @@
+.mainborder{
+    text-align: center;
+    background-image: url("../../../assets/food.jpg");
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    
+}
+/* .title{
+    margin: 2% 5% 0% 12%;
+    margin-left: 35%;
+    width:150px;
+    height: 150px;
+    padding: 4%;
+    image-rendering: pixelated;
+    border-radius: 10%;
+    font-style: italic;
+    background-image: url("../../../assets/food.jpg");
+    padding: 20px 10px;
+    margin-top: 10%;
+}
+.title :hover{
+    color: antiquewhite;
+    cursor: pointer;
+} */
+h5{
+    margin-top: 15%;
+    margin-left: 5%;
+    float: left;
+    text-decoration: solid;
+    font-weight: bolder;
+    color: aquamarine;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row{
+    text-align: center;
+}

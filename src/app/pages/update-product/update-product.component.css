@@ -1,0 +1,68 @@
+.body{
+    background-image: url("../../../assets/food.jpg");
+    width: 100%;
+    padding: 2%;
+}
+form {
+    width: 100%;
+    background-image: url("../../../assets/food.jpg");
+    /* margin: 5% 15% 5% 15%; */
+    border: 3px solid #f1f1f1;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+h3{
+    margin-top: 2%;
+    text-decoration: underline;
+    text-align: center;
+    color: #abf3d8;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+
+    background-color: #c7cecb;
+    color: rgb(101, 97, 97);
+    padding: 14px 20px;
+    margin-top: 10%;
+    width: 20%;
+    margin: 18px 2px 20px 30%;
+    border: none;
+    cursor: pointer;
+    /* width: 100%; */
+}
+button[type=reset] {
+    background-color: #bbc3c1;
+    color: rgb(107, 102, 102);
+    margin-top: 10%;
+    padding: 14px 20px;
+    width: 20%;
+    margin: 18px 2px 20px 20px;
+    border: none;
+    cursor: pointer;
+    /* width: 100%; */
+}
+button:hover {
+    opacity: 0.8;
+    color: #abf3d8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 4px 0 12px 0;
+    
+}
+
+.container {
+    padding: 16px;
+    color: #abf3d8;
+}
+
